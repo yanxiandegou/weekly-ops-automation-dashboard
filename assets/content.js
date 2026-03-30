@@ -6,8 +6,8 @@
     repoName: "ops-dashboard-case-study",
     lastUpdated: "2026-03-30",
     demoVideo: {
-      url: "E:\企业微信\自动化demo展示.mp4",
-      caption: "将这个字段替换为公开视频地址后，页面会自动切换为可播放或可跳转的演示状态。"
+      url: "assets/videos/weekly-ops-demo.mp4",
+      caption: "周度自动化看板演示视频"
     }
   },
 
@@ -282,3 +282,4 @@
     ]
   }
 };
+

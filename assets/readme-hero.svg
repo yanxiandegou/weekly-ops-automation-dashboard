@@ -1,0 +1,90 @@
+﻿<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="112" y1="64" x2="1180" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1B2C"/>
+      <stop offset="0.5" stop-color="#0F2740"/>
+      <stop offset="1" stop-color="#11192B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#132D46" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0E1F31" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="160" x2="470" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#51DDFF"/>
+      <stop offset="1" stop-color="#8EF5FF"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFCB77"/>
+      <stop offset="1" stop-color="#FF9C58"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="1096" cy="140" r="170" fill="#52DFFF" fill-opacity="0.12" filter="url(#glow)"/>
+  <circle cx="184" cy="582" r="180" fill="#FFBD59" fill-opacity="0.12" filter="url(#glow)"/>
+
+  <rect x="56" y="56" width="1168" height="608" rx="30" fill="#091524" fill-opacity="0.42" stroke="rgba(255,255,255,0.10)"/>
+
+  <g opacity="0.22">
+    <path d="M84 126H1194" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <path d="M84 206H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <path d="M84 286H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <path d="M84 366H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <path d="M84 446H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <path d="M84 526H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+    <path d="M84 606H1194" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  </g>
+
+  <rect x="96" y="98" width="118" height="42" rx="21" fill="#0F253A" stroke="#28455F"/>
+  <text x="124" y="124" fill="#51DDFF" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="700">AUTOMATION</text>
+
+  <text x="96" y="208" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="60" font-weight="800">Weekly Ops Automation Dashboard</text>
+  <text x="96" y="276" fill="#C2D5E4" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="600">匿名化的周度运营分析案例站</text>
+  <text x="96" y="330" fill="#91A7BA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24">Interactive filters · Illustrative charts · GitHub Pages ready · Demo video slot</text>
+
+  <rect x="96" y="390" width="176" height="58" rx="29" fill="url(#accent)"/>
+  <text x="136" y="427" fill="#05131E" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="800">Static Site</text>
+
+  <rect x="288" y="390" width="204" height="58" rx="29" fill="#102438" stroke="#294E6A"/>
+  <text x="334" y="427" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">Anonymized Data</text>
+
+  <rect x="508" y="390" width="192" height="58" rx="29" fill="#102438" stroke="#294E6A"/>
+  <text x="560" y="427" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">No Build</text>
+
+  <rect x="772" y="122" width="392" height="458" rx="28" fill="url(#card)" stroke="#29445B"/>
+  <rect x="804" y="154" width="132" height="34" rx="17" fill="#122A41" stroke="#2D4E68"/>
+  <text x="832" y="176" fill="#FFCB77" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="700">MODULES</text>
+
+  <rect x="806" y="214" width="324" height="92" rx="20" fill="#0F2438" stroke="#25435B"/>
+  <text x="834" y="246" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">Overview / Amount / Count</text>
+  <path d="M834 278C874 246 906 256 942 268C979 280 1018 302 1068 260C1085 246 1098 240 1116 236" stroke="#51DDFF" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="806" y="324" width="156" height="96" rx="20" fill="#0F2438" stroke="#25435B"/>
+  <text x="832" y="356" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Fee</text>
+  <rect x="832" y="382" width="20" height="18" rx="9" fill="#A9FF84"/>
+  <rect x="860" y="370" width="20" height="30" rx="9" fill="#A9FF84"/>
+  <rect x="888" y="344" width="20" height="56" rx="9" fill="#A9FF84"/>
+
+  <rect x="974" y="324" width="156" height="96" rx="20" fill="#0F2438" stroke="#25435B"/>
+  <text x="1002" y="356" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700">Growth</text>
+  <rect x="1006" y="374" width="16" height="24" rx="8" fill="#FF7D63"/>
+  <rect x="1032" y="344" width="16" height="54" rx="8" fill="#A9FF84"/>
+  <rect x="1058" y="360" width="16" height="38" rx="8" fill="#FF7D63"/>
+  <rect x="1084" y="332" width="16" height="66" rx="8" fill="#A9FF84"/>
+
+  <rect x="806" y="438" width="324" height="112" rx="20" fill="#0F2438" stroke="#25435B"/>
+  <text x="834" y="470" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">Video Placeholder</text>
+  <rect x="834" y="490" width="270" height="38" rx="19" fill="#132A41" stroke="#2D4E68"/>
+  <polygon points="952,500 952,518 970,509" fill="url(#gold)"/>
+  <text x="990" y="515" fill="#91A7BA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="18">Drop a public demo URL later</text>
+
+  <text x="96" y="588" fill="#EAF4FB" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="700">7 Sections · 6 Dashboard Modules · 3 Filter Layers · 1 Content Config</text>
+  <text x="96" y="626" fill="#91A7BA" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="20">Designed for polished GitHub presentation without exposing any real SQL, brand, account or internal schema.</text>
+</svg>
