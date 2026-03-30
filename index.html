@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>周度运营分析看板案例</title>
+  <meta
+    name="description"
+    content="一个匿名化的周度运营分析案例站，展示多维筛选、周度趋势、模块化看板结构与视频演示位。"
+  >
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="backdrop"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#intro" aria-label="回到顶部">
+        <span class="brand-mark">OD</span>
+        <span class="brand-copy">
+          <strong id="brand-title">周度运营分析看板案例</strong>
+          <span id="brand-subtitle">Anonymous Weekly Dashboard Case</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="页面导航">
+        <a href="#background">背景</a>
+        <a href="#capabilities">能力</a>
+        <a href="#modules">模块</a>
+        <a href="#system">结构</a>
+        <a href="#demo">演示</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero-section" id="intro">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-eyebrow">Weekly Ops Dashboard</p>
+          <h1 id="hero-title">把周度经营观察压缩成一个可公开展示的案例站</h1>
+          <p class="hero-summary" id="hero-summary">
+            这个页面展示的是一套匿名化后的周度运营分析看板：保留多维筛选、周度走势和模块化分析结构，同时去掉所有真实业务标识与内部实现细节。
+          </p>
+
+          <div class="tag-row" id="hero-tags" aria-label="技术标签"></div>
+
+          <div class="cta-row">
+            <a class="button-primary" href="#modules">查看看板模块</a>
+            <a class="button-secondary" href="#demo">跳到演示位</a>
+          </div>
+
+          <div class="filter-dock panel">
+            <div class="panel-heading">
+              <div>
+                <p class="panel-label">交互筛选</p>
+                <h2>保留真实使用路径，但不暴露真实业务信息</h2>
+              </div>
+              <p class="panel-note" id="selection-note">当前筛选：全部业务 / 全部场景 / 交易规模</p>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-title">业务维度</span>
+              <div class="chip-group" id="filter-dimension"></div>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-title">场景维度</span>
+              <div class="chip-group" id="filter-scene"></div>
+            </div>
+
+            <div class="filter-group">
+              <span class="filter-title">指标焦点</span>
+              <div class="chip-group" id="filter-kpi"></div>
+            </div>
+          </div>
+
+          <div class="hero-highlights" id="hero-highlights"></div>
+        </div>
+
+        <div class="hero-side">
+          <div class="panel video-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="panel-label">首屏演示位</p>
+                <h2>16:9 视频预留卡</h2>
+              </div>
+            </div>
+            <div id="hero-video"></div>
+          </div>
+
+          <div class="panel focus-panel">
+            <div class="panel-heading compact">
+              <div>
+                <p class="panel-label">动态摘要</p>
+                <h2>随筛选切换的核心指标</h2>
+              </div>
+            </div>
+            <div id="hero-focus"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="background">
+        <div class="section-heading">
+          <p class="eyebrow">Project Background</p>
+          <h2>项目背景</h2>
+          <p>公开版不追求还原真实内部系统，而是把原始看板的观察逻辑、信息架构和交互节奏重新组织成一套可理解、可分享、可部署的案例页面。</p>
+        </div>
+        <div class="info-grid" id="background-grid"></div>
+      </section>
+
+      <section class="section" id="capabilities">
+        <div class="section-heading">
+          <p class="eyebrow">Core Capabilities</p>
+          <h2>核心能力</h2>
+          <p>重点展示的是这套看板如何帮助阅读者快速完成“筛选切片、定位变化、拆解指标、理解流程”的完整路径。</p>
+        </div>
+        <div class="capability-grid" id="capability-grid"></div>
+      </section>
+
+      <section class="section" id="modules">
+        <div class="section-heading">
+          <p class="eyebrow">Dashboard Modules</p>
+          <h2>六个看板模块</h2>
+          <p>模块保留了总览、规模、笔数、手续费、变化率和活跃主体六类观察面，所有图形均为脱敏示意，不依赖真实数据源。</p>
+        </div>
+        <div class="module-grid" id="module-grid"></div>
+      </section>
+
+      <section class="section" id="system">
+        <div class="section-heading">
+          <p class="eyebrow">System Structure</p>
+          <h2>数据流与系统结构</h2>
+          <p>公开版只展示从采集、整理、度量、看板到复盘的高层结构，避免暴露任何库表、脚本、凭证或内部命名。</p>
+        </div>
+        <div class="flow-grid" id="flow-grid"></div>
+      </section>
+
+      <section class="section" id="outcomes">
+        <div class="section-heading">
+          <p class="eyebrow">Value & Outcomes</p>
+          <h2>成果与价值</h2>
+          <p>这里强调的不是原始业务结果，而是公开版案例本身的表达能力：清晰、可部署、可演示、可延展。</p>
+        </div>
+        <div class="outcome-summary panel" id="outcome-summary"></div>
+        <div class="outcome-grid" id="outcome-grid"></div>
+      </section>
+
+      <section class="section" id="demo">
+        <div class="section-heading">
+          <p class="eyebrow">Demo Slot</p>
+          <h2>视频演示位</h2>
+          <p>默认展示占位卡；后续在内容配置里补一个公开视频地址后，这个区域会自动切换成嵌入播放器或外链入口。</p>
+        </div>
+        <div class="panel demo-panel">
+          <div id="demo-video"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p id="footer-copy">公开展示版 · 静态部署 · GitHub Pages Ready</p>
+      <a href="#intro">回到顶部</a>
+    </footer>
+  </div>
+
+  <script src="assets/content.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
